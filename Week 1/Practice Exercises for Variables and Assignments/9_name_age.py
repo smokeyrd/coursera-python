@@ -1,5 +1,5 @@
 """
-Template - Compute a name tag, given the first and last name.
+Template - Compute the statement about a person's name and age, given the person's name and age.
 """
 
 ###################################################
@@ -7,42 +7,41 @@ Template - Compute a name tag, given the first and last name.
 # Student should uncomment ONLY ONE of the following at a time.
 
 # Test 1 - Select the following lines and use ctrl+shift+k to uncomment.
-first_name = "Joe"
-last_name = "Warren"
+name = "Joe Warren"
+age = 56
 
 
 # Test 2 - Select the following lines and use ctrl+shift+k to uncomment.
-#first_name = "Scott"
-#last_name = "Rixner"
+#name = "Scott Rixner"
+#age = 40
 
 
 # Test 3 - Select the following lines and use ctrl+shift+k to uncomment.
-#first_name = "John"
-#last_name = "Greiner"
+#name = "John Greiner"
+#age = 46
 
 
 ###################################################
-# Name tag formula
+# Name and age formula
 # Student should enter formula on the next line.
 
-name_tag= ("My name is %s %s") % (first_name, last_name)
+statement=(name+" is "+age+" years old.")
 
 ###################################################
 # Test output
 # Student should not change this code.
 
-print(name_tag)
-
+print(statement)
 
 ###################################################
 # Expected output
 # Student should look at the following comments and compare to printed output.
 
 # Test 1 output:
-#My name is Joe Warren.
+#Joe Warren is 56 years old.
 
 # Test 2 output:
-#My name is Scott Rixner.
+#Scott Rixner is 40 years old.
 
 # Test 3 output:
-#My name is John Greiner.
+#John Greiner is 46 years old.
